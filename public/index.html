@@ -3,9 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="maximum-scale=1">
-  <title>Interactive Display Advertising Technology Landscape [JP/2013]</title>
+  <title>インタラクティブ・アドテク・カオスマップ - Interactive Display Advertising Technology Landscape [JP/2013]</title>
   <meta name="keywords" content="adtech,dsp,ssp,rtb,dmp,exchange,adnetwork,agencies,marketing">
-  <meta name="description" content="">
+  <meta name="description" content="アドテク・カオスマップ（日本版）をもとに、企業毎にプレーヤーを分類して可視化できるようにしました。ロゴをクリックすると、その企業の持つソリューションや子会社・関連会社・投資先のプレーヤーが表示されます。">
+  <meta property="fb:app_id" content="395367557235907">
+  <meta property="og:url" content="http://imap.adtech.noriaki.me">
+  <meta property="og:title" content="インタラクティブ・アドテク・カオスマップ - Interactive Display Advertising Technology Landscape [JP/2013]">
+  <meta property="og:image" content="http://imap.adtech.noriaki.me/img/imap.png">
   <link rel="stylesheet" href="css/normalize.css" media="all">
   <link rel="stylesheet" href="css/imap.adtech.css" media="all">
 </head>
@@ -16,9 +20,22 @@
   <div id="stage">
     <canvas id="imap" width="1000px" height="746px"></canvas>
   </div>
+  <div id="social">
+    <div class="fb-like" data-href="http://imap.adtech.noriaki.me" data-send="true" data-width="450" data-show-faces="true"></div>
+  </div>
+
+  <p><small>(c) 2013 <a href="http://noriaki.hatenablog.com">Noriaki Uchiyama</a>.</small></p>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="js/jcanvas.min.js"></script>
   <script src="js/imap.adtech.js"></script>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=395367557235907";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
