@@ -45,6 +45,17 @@
                 {"x":617,"y":462,"width":78,"height":31,"name":"xmax","category":"Performance"},
                 {"x":681,"y":185,"width":74,"height":27,"name":"spider!","category":"Ad Networks Horizontal"}
             ]
+        },
+        {
+            "name": "VOYAGE GROUP",
+            "logo": "voyagegroup.png",
+            "color": "#000000",
+            "parts": [
+                {"x":777,"y":233,"width":82,"height":27,"name":"Fluct","category":"SSPs"},
+                {"x":438,"y":444,"width":91,"height":22,"name":"cosmi","category":"DMPs and Data Aggregators"},
+                {"x":367,"y":301,"width":45,"height":17,"name":"logly","category":"DSPs"},
+                {"x":553,"y":543,"width":66,"height":28,"name":"Zucks","category":"Mobile"}
+            ]
         }
     ]
 }
