@@ -56,6 +56,15 @@
                 {"x":367,"y":301,"width":45,"height":17,"name":"logly","category":"DSPs"},
                 {"x":553,"y":543,"width":66,"height":28,"name":"Zucks","category":"Mobile"}
             ]
+        },
+        {
+            "name": "Recruit",
+            "logo": "recruit.jpg",
+            "color": "#0065bd",
+            "parts": [
+                {"x":654,"y":233,"width":96,"height":29,"name":"Recruit Ad Network","category":"Ad Networks Horizontal"},
+                {"x":196,"y":377,"width":55,"height":31,"name":"C-Team","category":"Creative Optimization"}
+            ]
         }
     ]
 }
