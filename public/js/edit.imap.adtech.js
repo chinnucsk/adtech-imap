@@ -9,7 +9,6 @@ jQuery(function($) {
             mousedown = true;
             $.extend(pos, { x: e.offsetX, y: e.offsetY });
             frame.css({ left: pos.x, top: pos.y, width: 0, height: 0 });
-            console.log(e);
         })
         .on("mousemove", function(e) {
             if(mousedown) {
@@ -23,15 +22,16 @@ jQuery(function($) {
         })
         .on("mouseup", function(e) {
             mousedown = false;
-            output.select().focus();
+            nameelm.select().focus();
         })
         .on("mousedown mousemove mouseup", function(e) {
             output.val(build_json(pos));
         });
+    nameelm.on('blur', function() { output.select().focus(); });
 
     function build_json(position) {
         return JSON.stringify($.extend({}, position, {
-            name: nameelm.val()//, strokeStyle: colorelm.val()
+            name: nameelm.val()
         }, category(position)));
     }
 
