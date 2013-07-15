@@ -75,4 +75,13 @@ jQuery(function($) {
             layer: true, name: 'stage',
             load: $.imap
         });
+    $('.slide-out-div').tabSlideOut({
+        tabHandle: '.handle',
+        tabLocation: 'left',
+        speed: 300,
+        action: 'click',
+        topPos: '200px',
+        leftPos: '20px',
+        fixedPosition: true
+    });
 });
