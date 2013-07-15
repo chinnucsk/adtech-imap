@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="maximum-scale=1">
+  <title>[Edit] Interactive Display Advertising Technology Landscape [JP/2013]</title>
+  <meta name="keywords" content="adtech,dsp,ssp,rtb,dmp,exchange,adnetwork,agencies,marketing">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="css/normalize.css" media="all">
+</head>
+<body>
+  <h1>[Edit] Interactive Display Advertising Technology Landscape [JP/2013]</h1>
+  <p class="description">アドテク・カオスマップ（日本版）から、プレーヤー範囲を抽出する編集用ツール</p>
+  <div id="stage" style="position: relative;">
+    <img src="img/cmap_2013.png">
+    <div id="frame" style="position: absolute; top: 0; border: 1px solid red;"></div>
+    <div id="cover" style="position: absolute; width: 1000px; height: 746px; top: 0; cursor: crosshair;"></div>
+    <p>座標 x: <span id="x"></span>, y: <span id="y"></span> サービス名：<input id="name" style="width: 20em;"> 色：<input id="color" style="width: 8em;"></p>
+    <div>
+      <textarea id="output" cols="60" rows="10" readonly="readonly"></textarea>
+    </div>
+  </div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/edit.imap.adtech.js"></script>
+</body>
+</html>

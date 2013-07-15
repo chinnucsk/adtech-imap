@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#companies {
+}
+
+#companies img {
+  height: 30px;
+}
+
+#companies label {
+  margin: 0 20px 0 4px;
+  cursor: pointer;
+}
+
+#companies label span {
+  color: #5CA3E6;
+  text-decoration: underline;
+}

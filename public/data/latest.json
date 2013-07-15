@@ -1,0 +1,50 @@
+{
+    "version": "20130714.01",
+    "data": [
+        {
+            "name": "Google",
+            "logo": "google.gif",
+            "color": "#1851CE",
+            "parts": [
+                {"x":88,"y":557,"width":81,"height":25,"name":"doubleclick","category":"Ad Servers (Marketer)"},
+                {"x":205,"y":672,"width":84,"height":25,"name":"doubleclick","category":"Verification / Privacy"},
+                {"x":330,"y":149,"width":74,"height":21,"name":"doubleclick bidmanager","category":"DSPs"},
+                {"x":318,"y":174,"width":52,"height":20,"name":"doubleclick search","category":"DSPs"},
+                {"x":317,"y":588,"width":95,"height":19,"name":"Google Analytics","category":"Measurement and Analytics"},
+                {"x":437,"y":104,"width":93,"height":19,"name":"doubleclick adexchange","category":"Exchanges"},
+                {"x":679,"y":106,"width":68,"height":27,"name":"GDN","category":"Ad Networks Horizontal"},
+                {"x":560,"y":279,"width":54,"height":27,"name":"YouTube","category":"Video / Rich Media"},
+                {"x":770,"y":500,"width":47,"height":21,"name":"doubleclick","category":"Ad Servers (Publishers)"}
+            ]
+        },
+        {
+            "name": "Yahoo! JAPAN",
+            "logo": "yahoojapan.png",
+            "color": "#F52815",
+            "parts": [
+                {"x":86,"y":579,"width":86,"height":27,"name":"mediamind","category":"Ad Servers (Marketer)"},
+                {"x":198,"y":513,"width":59,"height":20,"name":"criteo","category":"Retargeting"},
+                {"x":317,"y":440,"width":45,"height":24,"name":"Bright Tag","category":"Tag Management"},
+                {"x":433,"y":124,"width":99,"height":34,"name":"rightmedia","category":"Exchanges"},
+                {"x":553,"y":207,"width":82,"height":29,"name":"YDN","category":"Ad Networks Horizontal"},
+                {"x":550,"y":441,"width":106,"height":21,"name":"Value Commerce","category":"Performance"},
+                {"x":316,"y":121,"width":45,"height":29,"name":"FreakOut","category":"DSPs"},
+                {"x":776,"y":328,"width":83,"height":20,"name":"Geniee","category":"SSPs"},
+                {"x":243,"y":431,"width":53,"height":18,"name":"mediamind","category":"Creative Optimization"},
+                {"x":313,"y":607,"width":55,"height":21,"name":"ADTRUTH","category":"Measurement and Analytics"},
+                {"x":558,"y":507,"width":67,"height":20,"name":"criteo","category":"Mobile"}
+            ]
+        },
+        {
+            "name": "セプテーニ",
+            "logo": "septeni.jpg",
+            "color": "#63569E",
+            "parts": [
+                {"x":90,"y":350,"width":77,"height":35,"name":"criteo","category":"Agencies"},
+                {"x":199,"y":161,"width":48,"height":17,"name":"EAGLEi","category":"Media Buying Platforms / Agency Desk"},
+                {"x":617,"y":462,"width":78,"height":31,"name":"xmax","category":"Performance"},
+                {"x":681,"y":185,"width":74,"height":27,"name":"spider!","category":"Ad Networks Horizontal"}
+            ]
+        }
+    ]
+}
